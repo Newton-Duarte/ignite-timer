@@ -70,11 +70,12 @@ export const CountdownContainer = styled.div`
   }
 `
 export const Separator = styled.div`
-  padding: 2rem 0;
+  padding: 0 0 2rem;
   color: ${(props) => props.theme['green-500']};
   width: 4rem;
   overflow: hidden;
   display: flex;
+  align-items: center;
   justify-content: center;
 `
 export const StartCountdownButton = styled.button`
